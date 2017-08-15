@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>vertical-align</title>
+	<style type="text/css">
+	p {
+		font-size: 32px;
+	}
+	span { font-size: 200%; }
+	.sub, .super { font-size: 32px; }
+	.baseline { vertical-align: baseline; }
+	.top { vertical-align: top; }
+	.middle { vertical-align: middle; }
+	.bottom { vertical-align: bottom; }
+	.text-top { vertical-align: text-top; }
+	.text-bottom { vertical-align: text-bottom; }
+	.super {
+		font-size: 32px; 
+		vertical-align: super;
+	}
+	.sub {
+		font-size: 32px; 
+		vertical-align: sub;
+	}
+	</style>
+</head>
+<body>
+	<p>potato <span class="baseline">chips</span></p>
+	<p>potato <span class="top">chips</span></p>
+	<p>potato <span class="middle">chips</span></p>
+	<p>potato <span class="bottom">chips</span></p>
+	<p>potato <span class="text-top">chips</span></p>
+	<p>potato <span class="text-bottom">chips</span></p>
+	<p>potato <span class="super">chips</span></p>
+	<p>potato <span class="sub">chips</span></p>
+</body>
+</html>
